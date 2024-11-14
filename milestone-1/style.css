@@ -1,0 +1,129 @@
+body{
+    background-color:white;
+    width: 60%;
+    height: 60%;
+    border: 3px solid rgb(51, 50, 50);
+    justify-self: center;
+}
+legend{
+    font-size: 2rem;
+    white-space: normal;
+    color: rgb(71, 71, 71);
+    /* justify-items: center;   */
+}
+#skillsbox{
+    display: block;
+    /* transition: all 1s ease-in; */
+    min-height: 100px;
+    position: relative;
+}
+ #skillsbox.hidden{
+    display:none;   
+} 
+p{
+    /* font-size: larger; */
+    font-size: 1.2rem; /* Relative font size */
+    line-height: 1.5; /* Improve readability */
+}
+button{
+    background-color: rgb(12, 14, 14);
+    color: azure;
+    border: 3px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: 0.9rem; 
+}
+button:active{
+    background-color: rgb(21, 68, 68);
+}
+fieldset{
+    border:2px solid rgb(252, 238, 238);
+    justify-content: center;
+    padding: 10px; /* Add padding */
+    font-size: 1rem; /* Adjust text size */
+}
+#one{
+    margin-bottom: -20px;
+    margin-top: -29px;
+    font-size: 1.8rem;
+}
+#two{
+    color:white;
+   
+}
+#three{
+    font-size: 2.5rem;
+    margin-top: -3px;
+
+}
+h1,h2{
+    color: white;
+    background-color: rgb(67, 59, 136);
+    padding-left: 10px; 
+    font-size: 1.3rem;
+}
+@media (min-width: 320px) and (max-width: 650px) {
+    /* Styles for 320px to 650px */
+    body {
+        width: 20rem; /* Adjust width dynamically */
+        height: auto; /* Allow flexible height */
+    }
+    h1, h2 {
+        font-size: 1.2rem; /* Smaller heading size */
+    }
+    legend {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+    p {
+        font-size: 0.8rem; /* Decrease paragraph size */
+        margin-bottom: -15px; /* Adjust paragraph spacing */
+    }
+    button {
+        width: 70px; /* Smaller button width */
+        height: 30px;
+        font-size: 0.6rem; /* Smaller button text */
+        margin: 10px; /* Add more space between buttons */
+    }
+    h1, h2 {
+        font-size: 1.2rem; /* Smaller heading size */
+        margin-bottom: 15px; /* More space below headings */
+        padding: 0.3rem;
+    }
+    #skillsbox {
+        min-height: 3rem; /* Reduce box height */
+        margin-bottom: 15px; /* Space below box */
+    }
+    fieldset {
+        font-size: 0.9rem; /* Scale down text size in fieldset */
+        margin-bottom: 20px; /* More space below fieldset */
+    }
+    #skillsbox li, fieldset li {
+        font-size: 0.8rem; /* Adjust this to the desired size */
+    }
+    #three {
+        font-size: 1.3rem;
+    }
+    #one {
+        font-size: 1.1rem;
+    }
+    #two {
+        font-size: 0.6rem;
+    }
+}
+#skillsbox {
+    min-height: 60px; /* Reduce box height */
+}
+
+#four {
+        width: 100%; /* Ensures #four fits within its parent */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    overflow-wrap: break-word; /* Ensure long words or URLs wrap */
+    word-wrap: break-word; /* Legacy support */
+    overflow: hidden; /* Prevent content overflow */
+    
+    }
+
+li{
+    font-size: 1.2rem;
+}
